@@ -9,19 +9,19 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    konfirmasi.cpp \
     main.cpp \
     mainwindow.cpp \
-    secdialog.cpp \
     window2.cpp
 
 HEADERS += \
+    konfirmasi.h \
     mainwindow.h \
-    secdialog.h \
     window2.h
 
 FORMS += \
+    konfirmasi.ui \
     mainwindow.ui \
-    secdialog.ui \
     window2.ui
 
 # Default rules for deployment.

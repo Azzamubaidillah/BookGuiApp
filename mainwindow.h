@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "secdialog.h"
 #include "window2.h"
 
 QT_BEGIN_NAMESPACE
