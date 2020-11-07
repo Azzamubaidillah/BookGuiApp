@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>KonfirmasiBumi</class>
- <widget class="QMainWindow" name="KonfirmasiBumi">
+ <class>KonfirmasiChairil</class>
+ <widget class="QMainWindow" name="KonfirmasiChairil">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>10</y>
+      <y>20</y>
       <width>291</width>
       <height>71</height>
      </rect>
@@ -39,7 +39,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>80</y>
+      <y>90</y>
       <width>193</width>
       <height>287</height>
      </rect>
@@ -51,15 +51,15 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Resources.qrc">:/img/img/buku4.png</pixmap>
+     <pixmap resource="Resources.qrc">:/img/img/buku5.png</pixmap>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>241</x>
-      <y>101</y>
-      <width>1334</width>
+      <y>111</y>
+      <width>193</width>
       <height>163</height>
      </rect>
     </property>
@@ -81,7 +81,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Penulis:  Tere Liye</string>
+        <string>Penulis:  Hasan Aspahani</string>
        </property>
       </widget>
      </item>
@@ -111,7 +111,7 @@
         </font>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Judul: BUMI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Judul: Chairil Anwar&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -126,7 +126,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Penerbit:  Pastel Books</string>
+        <string>Penerbit:  Gagas Media</string>
        </property>
       </widget>
      </item>
@@ -149,18 +149,19 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>360</y>
+      <y>390</y>
       <width>391</width>
-      <height>171</height>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Goldplay</family>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Sinopsis: Novel yang dituliskan oleh Pidi Baiq ini menceritakan tentang kisah cinta seorang murid baru yang pindah ke Bandung, dia bernama Milea. Pada awalnya Milea tidak peduli, tapi setiap hari cowok itu selalu mengganggu dan mendekati Milea, akhirnya Milea mulai mencaritahu siapa cowok itu. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Nyaris semua anak yang bersekolah di Indonesia mengenal puisi karya Chairil Anwar: dari &amp;quot;Krawang ke Bekasi&amp;quot; hingga &amp;quot;Aku&amp;quot;. Mengenal puisi yang bukan hanya kata-kata indah sendu, tetapi juga kata yang lugas serta bentuk dari eksplorasi pada bahasa Indonesia.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>
@@ -179,7 +180,7 @@
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>300</y>
+      <y>310</y>
       <width>193</width>
       <height>71</height>
      </rect>

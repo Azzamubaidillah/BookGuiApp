@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>KonfirmasiBumi</class>
- <widget class="QMainWindow" name="KonfirmasiBumi">
+ <class>KonfirmasiHujan</class>
+ <widget class="QMainWindow" name="KonfirmasiHujan">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -14,11 +14,61 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>193</width>
+      <height>287</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Resources.qrc">:/img/img/buku10.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>391</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Goldplay</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Sinopsis: Tentang persahabatan, tentang cinta, tentang perpisahan, tentang melupakan, tentang hujan.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="margin">
+     <number>1</number>
+    </property>
+   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>10</y>
+      <x>80</x>
+      <y>20</y>
       <width>291</width>
       <height>71</height>
      </rect>
@@ -35,31 +85,12 @@
      <string>Konfirmasi Pembelian</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>80</y>
-      <width>193</width>
-      <height>287</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="Resources.qrc">:/img/img/buku4.png</pixmap>
-    </property>
-   </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>241</x>
-      <y>101</y>
-      <width>1334</width>
+      <x>231</x>
+      <y>111</y>
+      <width>809</width>
       <height>163</height>
      </rect>
     </property>
@@ -96,7 +127,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Harga: 79.000</string>
+        <string>Harga: Rp.75.499</string>
        </property>
       </widget>
      </item>
@@ -111,7 +142,7 @@
         </font>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Judul: BUMI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Judul: HUJAN&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -126,7 +157,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Penerbit:  Pastel Books</string>
+        <string>Penerbit:  Gramedia</string>
        </property>
       </widget>
      </item>
@@ -145,41 +176,11 @@
      </item>
     </layout>
    </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>360</y>
-      <width>391</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Goldplay</family>
-     </font>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Sinopsis: Novel yang dituliskan oleh Pidi Baiq ini menceritakan tentang kisah cinta seorang murid baru yang pindah ke Bandung, dia bernama Milea. Pada awalnya Milea tidak peduli, tapi setiap hari cowok itu selalu mengganggu dan mendekati Milea, akhirnya Milea mulai mencaritahu siapa cowok itu. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::RichText</enum>
-    </property>
-    <property name="scaledContents">
-     <bool>false</bool>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-    <property name="margin">
-     <number>1</number>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>300</y>
+      <x>230</x>
+      <y>310</y>
       <width>193</width>
       <height>71</height>
      </rect>

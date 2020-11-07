@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>KonfirmasiBumi</class>
- <widget class="QMainWindow" name="KonfirmasiBumi">
+ <class>KonfirmasiMilea</class>
+ <widget class="QMainWindow" name="KonfirmasiMilea">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -51,7 +51,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Resources.qrc">:/img/img/buku4.png</pixmap>
+     <pixmap resource="Resources.qrc">:/img/img/buku7.png</pixmap>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
@@ -59,7 +59,7 @@
      <rect>
       <x>241</x>
       <y>101</y>
-      <width>1334</width>
+      <width>186</width>
       <height>163</height>
      </rect>
     </property>
@@ -81,7 +81,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Penulis:  Tere Liye</string>
+        <string>Penulis:  Pidi Baiq</string>
        </property>
       </widget>
      </item>
@@ -96,7 +96,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Harga: 79.000</string>
+        <string>Harga: Rp. 68.799</string>
        </property>
       </widget>
      </item>
@@ -111,7 +111,7 @@
         </font>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Judul: BUMI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Judul: Dilan, Dia adalah &lt;/p&gt;&lt;p&gt;Dilanku tahun 1991&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -149,18 +149,19 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>360</y>
+      <y>380</y>
       <width>391</width>
-      <height>171</height>
+      <height>121</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Goldplay</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Sinopsis: Novel yang dituliskan oleh Pidi Baiq ini menceritakan tentang kisah cinta seorang murid baru yang pindah ke Bandung, dia bernama Milea. Pada awalnya Milea tidak peduli, tapi setiap hari cowok itu selalu mengganggu dan mendekati Milea, akhirnya Milea mulai mencaritahu siapa cowok itu. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;&amp;quot;Jika aku berkata bahwa aku mencintainya, maka itu adalah sebuah pernyataan yang sudah cukup lengkap.&amp;quot; -Milea&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;&amp;quot;Senakal-nakalnya anak geng motor, Lia, mereka shalat pada waktu ujian praktek Agama.&amp;quot; -Dilan&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>

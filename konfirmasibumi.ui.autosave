@@ -96,7 +96,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Harga: 79.000</string>
+        <string>Harga: Rp.75.499</string>
        </property>
       </widget>
      </item>
@@ -126,7 +126,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Penerbit:  Pastel Books</string>
+        <string>Penerbit:  Gramedia</string>
        </property>
       </widget>
      </item>
@@ -157,10 +157,11 @@
     <property name="font">
      <font>
       <family>Goldplay</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Sinopsis: Novel yang dituliskan oleh Pidi Baiq ini menceritakan tentang kisah cinta seorang murid baru yang pindah ke Bandung, dia bernama Milea. Pada awalnya Milea tidak peduli, tapi setiap hari cowok itu selalu mengganggu dan mendekati Milea, akhirnya Milea mulai mencaritahu siapa cowok itu. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Sinopsis: Bumi adalah sebuah novel karya Tere Liye, novel ini juga adalah bagian pertama dari seri Bumi/serial Dunia Paralel. Diterbitkan pertama kali oleh Gramedia Pustaka Utama tahun 2014&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>
