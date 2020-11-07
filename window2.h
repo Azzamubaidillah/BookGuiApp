@@ -8,6 +8,8 @@
 #include "konfirmasihujan.h"
 #include "konfirmasipergi.h"
 #include "konfirmasipulang.h"
+#include "konfirmasichairil.h"
+#include "konfirmasimilea.h"
 
 namespace Ui {
 class Window2;
@@ -39,6 +41,14 @@ private slots:
 
     void on_pushButton_7_clicked();
 
+    void on_pushButton_8_clicked();
+
+    void on_pushButton_9_clicked();
+
+    void on_pushButton_10_clicked();
+
+    void on_pushButton_11_clicked();
+
 private:
 
     Ui::Window2 *ui;
@@ -48,6 +58,9 @@ private:
     KonfirmasiHujan *KonfirmasiHujan;
     KonfirmasiPergi *KonfirmasiPergi;
     KonfirmasiPulang *KonfirmasiPulang;
+    KonfirmasiChairil *KonfirmasiChairil;
+    KonfirmasiMilea *KonfirmasiMilea;
+
 
 };
 

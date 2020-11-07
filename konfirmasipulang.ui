@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>80</y>
       <width>193</width>
       <height>287</height>
@@ -36,7 +36,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>10</y>
       <width>291</width>
       <height>71</height>
@@ -57,7 +57,7 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>250</x>
       <y>300</y>
       <width>193</width>
       <height>71</height>
@@ -89,8 +89,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>231</x>
-      <y>101</y>
+      <x>260</x>
+      <y>100</y>
       <width>220</width>
       <height>163</height>
      </rect>
@@ -128,7 +128,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Harga: 79.000</string>
+        <string>Harga: Rp.75.499</string>
        </property>
       </widget>
      </item>
@@ -180,7 +180,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>360</y>
       <width>391</width>
       <height>171</height>
@@ -193,7 +193,7 @@
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:13px; color:#333333; background-color:#ffffff;&quot;&gt;&amp;quot;Aku tahu sekarang, lebih banyak luka di hati bapakku dibanding di tubuhnya. Juga mamakku, lebih banyak tangis di hati Mamak dibanding di matanya.&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:13px; color:#333333; background-color:#ffffff;&quot;&gt;Sebuah kisah tentang perjalanan pulang, melalui pertarungan demi pertarungan, untuk memeluk erat semua kebencian dan rasa sakit.&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&amp;quot;Aku tahu sekarang, lebih banyak luka di hati bapakku dibanding di tubuhnya. Juga mamakku, lebih banyak tangis di hati Mamak dibanding di matanya.&amp;quot;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Sebuah kisah tentang perjalanan pulang, melalui pertarungan demi pertarungan, untuk memeluk erat semua kebencian dan rasa sakit.&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>

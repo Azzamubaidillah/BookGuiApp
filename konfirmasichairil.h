@@ -2,6 +2,7 @@
 #define KONFIRMASICHAIRIL_H
 
 #include <QMainWindow>
+#include <terimakasih.h>
 
 namespace Ui {
 class KonfirmasiChairil;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::KonfirmasiChairil *ui;
+        TerimaKasih *Terimakasih;
 };
 
 #endif // KONFIRMASICHAIRIL_H

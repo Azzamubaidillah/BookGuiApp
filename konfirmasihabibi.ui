@@ -35,25 +35,6 @@
      <string>Konfirmasi Pembelian</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>70</y>
-      <width>193</width>
-      <height>287</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="Resources.qrc">:/img/img/buku1.png</pixmap>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
@@ -66,11 +47,11 @@
     <property name="font">
      <font>
       <family>Goldplay</family>
-      <pointsize>12</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Roboto','Helvetica Neue','Helvetica','Arial','文泉驛正黑','WenQuanYi Zen Hei','Hiragino Sans GB','儷黑 Pro','LiHei Pro','Heiti TC','微軟正黑體','Microsoft JhengHei UI','Microsoft JhengHei','sans-serif'; font-size:14px; color:rgba(0,0,0,0.8); background-color:#ffffff;&quot;&gt;Sinopsis: Seri KISAH, PERJUANGAN &amp;amp; INSPIRASI ini diterbitkan sebagai uapaya untuk menyebarkan semangat dan optimisme, seperti semangat belajar, berbisnis, meniti karir, menaklukan tantangan, dan sebagainya. Harapannya, dapat terbentuk generasi yang optimis, penuh semangat, dan pantang menyerah. Dimulai dari membangun diri sendiri, kelluarga, dan akhirnya bangsa dan negara. Semangat untuk Indonesia.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Sinopsis: Seri KISAH, PERJUANGAN &amp;amp; INSPIRASI ini diterbitkan sebagai uapaya untuk menyebarkan semangat dan optimisme, seperti semangat belajar, berbisnis, meniti karir, menaklukan tantangan, dan sebagainya. Harapannya, dapat terbentuk generasi yang optimis, penuh semangat, dan pantang menyerah. Dimulai dari membangun diri sendiri, kelluarga, dan akhirnya bangsa dan negara. Semangat untuk Indonesia.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>
@@ -117,12 +98,31 @@
      <string>Konfirmasi Pembelian</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>193</width>
+      <height>287</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Resources.qrc">:/img/img/buku1.png</pixmap>
+    </property>
+   </widget>
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
       <x>240</x>
       <y>70</y>
-      <width>251</width>
+      <width>3241</width>
       <height>163</height>
      </rect>
     </property>
@@ -181,7 +181,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Harga: 79.000</string>
+        <string>Harga: Rp.89.999</string>
        </property>
       </widget>
      </item>

@@ -109,3 +109,31 @@ void Window2::on_pushButton_7_clicked()
     KonfirmasiPergi = new class KonfirmasiPergi(this);
     KonfirmasiPergi->show();
 }
+
+void Window2::on_pushButton_8_clicked()
+{
+    hide();
+    KonfirmasiHabibi = new class KonfirmasiHabibi(this);
+    KonfirmasiHabibi->show();
+}
+
+void Window2::on_pushButton_9_clicked()
+{
+    hide();
+    KonfirmasiChairil = new class KonfirmasiChairil(this);
+    KonfirmasiChairil->show();
+}
+
+void Window2::on_pushButton_10_clicked()
+{
+    hide();
+    Konfirmasi = new class Konfirmasi(this);
+    Konfirmasi->show();
+}
+
+void Window2::on_pushButton_11_clicked()
+{
+    hide();
+    KonfirmasiMilea = new class KonfirmasiMilea(this);
+    KonfirmasiMilea->show();
+}

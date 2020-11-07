@@ -66,6 +66,7 @@
     <property name="font">
      <font>
       <family>Goldplay</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -158,7 +159,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Harga: 79.000</string>
+        <string>Harga: Rp. 68.799</string>
        </property>
       </widget>
      </item>

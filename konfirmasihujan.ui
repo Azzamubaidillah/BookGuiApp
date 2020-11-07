@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>40</x>
       <y>90</y>
       <width>193</width>
       <height>287</height>
@@ -36,7 +36,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>40</x>
       <y>370</y>
       <width>391</width>
       <height>171</height>
@@ -45,10 +45,11 @@
     <property name="font">
      <font>
       <family>Goldplay</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:14px; color:#4d5156; background-color:#ffffff;&quot;&gt;Sinopsis: Tentang persahabatan, tentang cinta, tentang perpisahan, tentang melupakan, tentang hujan.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Sinopsis: Tentang persahabatan, tentang cinta, tentang perpisahan, tentang melupakan, tentang hujan.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>
@@ -66,7 +67,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>90</x>
       <y>20</y>
       <width>291</width>
       <height>71</height>
@@ -87,7 +88,7 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>231</x>
+      <x>241</x>
       <y>111</y>
       <width>809</width>
       <height>163</height>
@@ -126,7 +127,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Harga: 79.000</string>
+        <string>Harga: Rp.75.499</string>
        </property>
       </widget>
      </item>
@@ -178,7 +179,7 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>240</x>
       <y>310</y>
       <width>193</width>
       <height>71</height>

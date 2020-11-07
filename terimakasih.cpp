@@ -12,3 +12,10 @@ TerimaKasih::~TerimaKasih()
 {
     delete ui;
 }
+
+void TerimaKasih::on_pushButton_5_clicked()
+{
+    hide();
+    Window2 = new class Window2(this);
+    Window2->show();
+}
