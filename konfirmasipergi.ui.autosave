@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>80</y>
       <width>193</width>
       <height>287</height>
@@ -36,7 +36,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>110</x>
       <y>10</y>
       <width>291</width>
       <height>71</height>
@@ -57,7 +57,7 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>250</x>
       <y>300</y>
       <width>193</width>
       <height>71</height>
@@ -89,7 +89,7 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>231</x>
+      <x>251</x>
       <y>101</y>
       <width>220</width>
       <height>163</height>
@@ -180,9 +180,9 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>380</y>
-      <width>411</width>
+      <width>391</width>
       <height>171</height>
      </rect>
     </property>

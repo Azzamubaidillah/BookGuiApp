@@ -19,6 +19,7 @@ SOURCES += \
     konfirmasipulang.cpp \
     main.cpp \
     mainwindow.cpp \
+    terimakasih.cpp \
     window2.cpp
 
 HEADERS += \
@@ -31,6 +32,7 @@ HEADERS += \
     konfirmasipergi.h \
     konfirmasipulang.h \
     mainwindow.h \
+    terimakasih.h \
     window2.h
 
 FORMS += \
@@ -43,6 +45,7 @@ FORMS += \
     konfirmasipergi.ui \
     konfirmasipulang.ui \
     mainwindow.ui \
+    terimakasih.ui \
     window2.ui
 
 # Default rules for deployment.
