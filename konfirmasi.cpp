@@ -1,5 +1,7 @@
 #include "konfirmasi.h"
 #include "ui_konfirmasi.h"
+#include "window2.h"
+
 
 Konfirmasi::Konfirmasi(QWidget *parent) :
     QMainWindow(parent),

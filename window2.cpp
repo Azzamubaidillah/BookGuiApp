@@ -70,6 +70,42 @@ void Window2::on_verticalScrollBar_actionTriggered(int action)
 
 void Window2::on_pushButton_2_clicked()
 {
+    hide();
     Konfirmasi = new class Konfirmasi(this);
     Konfirmasi->show();
+}
+
+void Window2::on_pushButton_3_clicked()
+{
+    hide();
+    KonfirmasiHabibi = new class KonfirmasiHabibi(this);
+    KonfirmasiHabibi->show();
+}
+
+void Window2::on_pushButton_5_clicked()
+{
+    hide();
+    KonfirmasiBumi = new class KonfirmasiBumi(this);
+    KonfirmasiBumi->show();
+}
+
+void Window2::on_pushButton_4_clicked()
+{
+    hide();
+    KonfirmasiHujan = new class KonfirmasiHujan(this);
+    KonfirmasiHujan->show();
+}
+
+void Window2::on_pushButton_6_clicked()
+{
+    hide();
+    KonfirmasiPulang = new class KonfirmasiPulang(this);
+    KonfirmasiPulang->show();
+}
+
+void Window2::on_pushButton_7_clicked()
+{
+    hide();
+    KonfirmasiPergi = new class KonfirmasiPergi(this);
+    KonfirmasiPergi->show();
 }

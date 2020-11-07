@@ -10,17 +10,38 @@ CONFIG += c++11
 
 SOURCES += \
     konfirmasi.cpp \
+    konfirmasibumi.cpp \
+    konfirmasichairil.cpp \
+    konfirmasihabibi.cpp \
+    konfirmasihujan.cpp \
+    konfirmasimilea.cpp \
+    konfirmasipergi.cpp \
+    konfirmasipulang.cpp \
     main.cpp \
     mainwindow.cpp \
     window2.cpp
 
 HEADERS += \
     konfirmasi.h \
+    konfirmasibumi.h \
+    konfirmasichairil.h \
+    konfirmasihabibi.h \
+    konfirmasihujan.h \
+    konfirmasimilea.h \
+    konfirmasipergi.h \
+    konfirmasipulang.h \
     mainwindow.h \
     window2.h
 
 FORMS += \
     konfirmasi.ui \
+    konfirmasibumi.ui \
+    konfirmasichairil.ui \
+    konfirmasihabibi.ui \
+    konfirmasihujan.ui \
+    konfirmasimilea.ui \
+    konfirmasipergi.ui \
+    konfirmasipulang.ui \
     mainwindow.ui \
     window2.ui
 

@@ -3,6 +3,11 @@
 
 #include <QMainWindow>
 #include "konfirmasi.h"
+#include "konfirmasihabibi.h"
+#include "konfirmasibumi.h"
+#include "konfirmasihujan.h"
+#include "konfirmasipergi.h"
+#include "konfirmasipulang.h"
 
 namespace Ui {
 class Window2;
@@ -24,10 +29,25 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_pushButton_3_clicked();
+
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_4_clicked();
+
+    void on_pushButton_6_clicked();
+
+    void on_pushButton_7_clicked();
+
 private:
 
     Ui::Window2 *ui;
     Konfirmasi *Konfirmasi;
+    KonfirmasiHabibi *KonfirmasiHabibi;
+    KonfirmasiBumi *KonfirmasiBumi;
+    KonfirmasiHujan *KonfirmasiHujan;
+    KonfirmasiPergi *KonfirmasiPergi;
+    KonfirmasiPulang *KonfirmasiPulang;
 
 };
 
