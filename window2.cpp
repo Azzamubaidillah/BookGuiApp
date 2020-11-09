@@ -116,3 +116,10 @@ void Window2::on_pushButton_8_clicked()
     KonfirmasiHabibi = new class KonfirmasiHabibi(this);
     KonfirmasiHabibi->show();
 }
+
+void Window2::on_pushButton_9_clicked()
+{
+    hide();
+    KonfirmasiChairil = new class KonfirmasiChairil(this);
+    KonfirmasiChairil->show();
+}
