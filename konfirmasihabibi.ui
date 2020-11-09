@@ -59,7 +59,7 @@
      <rect>
       <x>40</x>
       <y>350</y>
-      <width>411</width>
+      <width>391</width>
       <height>171</height>
      </rect>
     </property>
@@ -70,7 +70,7 @@
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Roboto','Helvetica Neue','Helvetica','Arial','文泉驛正黑','WenQuanYi Zen Hei','Hiragino Sans GB','儷黑 Pro','LiHei Pro','Heiti TC','微軟正黑體','Microsoft JhengHei UI','Microsoft JhengHei','sans-serif'; font-size:14px; color:rgba(0,0,0,0.8); background-color:#ffffff;&quot;&gt;Sinopsis: Seri KISAH, PERJUANGAN &amp;amp; INSPIRASI ini diterbitkan sebagai uapaya untuk menyebarkan semangat dan optimisme, seperti semangat belajar, berbisnis, meniti karir, menaklukan tantangan, dan sebagainya. Harapannya, dapat terbentuk generasi yang optimis, penuh semangat, dan pantang menyerah. Dimulai dari membangun diri sendiri, kelluarga, dan akhirnya bangsa dan negara. Semangat untuk Indonesia.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Sinopsis: Seri KISAH, PERJUANGAN &amp;amp; INSPIRASI ini diterbitkan sebagai uapaya untuk menyebarkan semangat dan optimisme, seperti semangat belajar, berbisnis, meniti karir, menaklukan tantangan, dan sebagainya. Harapannya, dapat terbentuk generasi yang optimis, penuh semangat, dan pantang menyerah. Dimulai dari membangun diri sendiri, kelluarga, dan akhirnya bangsa dan negara. Semangat untuk Indonesia.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>
@@ -117,7 +117,7 @@
      <string>Konfirmasi Pembelian</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -204,6 +204,197 @@
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>460</y>
+      <width>251</width>
+      <height>163</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="3" column="0">
+      <widget class="QLabel" name="penulis_4">
+       <property name="font">
+        <font>
+         <family>Goldplay</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Penerbit:  Checklist</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="3">
+      <widget class="QLabel" name="penulis_5">
+       <property name="font">
+        <font>
+         <family>Goldplay</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Penulis:  Weda S. Atma</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="penulis_6">
+       <property name="font">
+        <font>
+         <family>Goldplay</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Harga: 79.000</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="judul_2">
+       <property name="font">
+        <font>
+         <family>Goldplay</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Judul: Bj Habibie, &lt;/p&gt;&lt;p&gt;                 Kisah Perjuangan dan Inspirasi&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>680</y>
+      <width>193</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: orange;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: beige;
+    font: bold 14px;
+	color:white;
+    min-width: 10em;
+    padding: 6px;</string>
+    </property>
+    <property name="text">
+     <string>Konfirmasi Pembelian</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>460</y>
+      <width>193</width>
+      <height>287</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Resources.qrc">:/img/img/buku1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>740</y>
+      <width>391</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Goldplay</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Sinopsis: Seri KISAH, PERJUANGAN &amp;amp; INSPIRASI ini diterbitkan sebagai uapaya untuk menyebarkan semangat dan optimisme, seperti semangat belajar, berbisnis, meniti karir, menaklukan tantangan, dan sebagainya. Harapannya, dapat terbentuk generasi yang optimis, penuh semangat, dan pantang menyerah. Dimulai dari membangun diri sendiri, kelluarga, dan akhirnya bangsa dan negara. Semangat untuk Indonesia.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="margin">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>390</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Goldplay</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Konfirmasi Pembelian</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
