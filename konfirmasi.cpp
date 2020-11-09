@@ -15,9 +15,3 @@ Konfirmasi::~Konfirmasi()
     delete ui;
 }
 
-void Konfirmasi::on_pushButton_2_clicked()
-{
-    hide();
-    TerimaKasih = new class TerimaKasih(this);
-    TerimaKasih->show();
-}

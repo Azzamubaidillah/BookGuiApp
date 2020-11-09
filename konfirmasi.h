@@ -21,7 +21,6 @@ private slots:
 
 private:
     Ui::Konfirmasi *ui;
-    TerimaKasih *TerimaKasih;
 
 };
 

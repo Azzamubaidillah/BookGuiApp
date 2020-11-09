@@ -18,7 +18,6 @@ public:
 
 private:
     Ui::KonfirmasiChairil *ui;
-        TerimaKasih *Terimakasih;
 };
 
 #endif // KONFIRMASICHAIRIL_H

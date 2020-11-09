@@ -18,7 +18,6 @@ public:
 
 private:
     Ui::KonfirmasiBumi *ui;
-    TerimaKasih *Terimakasih;
 };
 
 #endif // KONFIRMASIBUMI_H

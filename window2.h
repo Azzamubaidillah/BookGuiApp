@@ -52,14 +52,15 @@ private slots:
 private:
 
     Ui::Window2 *ui;
-    Konfirmasi *Konfirmasi;
     KonfirmasiHabibi *KonfirmasiHabibi;
-    KonfirmasiBumi *KonfirmasiBumi;
     KonfirmasiHujan *KonfirmasiHujan;
     KonfirmasiPergi *KonfirmasiPergi;
     KonfirmasiPulang *KonfirmasiPulang;
     KonfirmasiChairil *KonfirmasiChairil;
     KonfirmasiMilea *KonfirmasiMilea;
+    KonfirmasiBumi *KonfirmasiBumi;
+    Konfirmasi *Konfirmasi;
+
 
 
 };
