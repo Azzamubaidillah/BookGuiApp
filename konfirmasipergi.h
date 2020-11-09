@@ -2,6 +2,7 @@
 #define KONFIRMASIPERGI_H
 
 #include <QMainWindow>
+#include <terimakasih.h>
 
 namespace Ui {
 class KonfirmasiPergi;
@@ -15,8 +16,13 @@ public:
     explicit KonfirmasiPergi(QWidget *parent = nullptr);
     ~KonfirmasiPergi();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::KonfirmasiPergi *ui;
+    TerimaKasih *TerimaKasih;
+
 };
 
 #endif // KONFIRMASIPERGI_H

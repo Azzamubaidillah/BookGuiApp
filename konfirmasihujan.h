@@ -2,6 +2,7 @@
 #define KONFIRMASIHUJAN_H
 
 #include <QMainWindow>
+#include <terimakasih.h>
 
 namespace Ui {
 class KonfirmasiHujan;
@@ -15,8 +16,13 @@ public:
     explicit KonfirmasiHujan(QWidget *parent = nullptr);
     ~KonfirmasiHujan();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::KonfirmasiHujan *ui;
+    TerimaKasih *TerimaKasih;
+
 };
 
 #endif // KONFIRMASIHUJAN_H

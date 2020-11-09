@@ -40,7 +40,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>img/kurir.png</pixmap>
+     <pixmap resource="Resources.qrc">:/img/img/kurir.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -93,6 +93,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

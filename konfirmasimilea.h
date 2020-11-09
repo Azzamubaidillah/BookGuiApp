@@ -2,6 +2,7 @@
 #define KONFIRMASIMILEA_H
 
 #include <QMainWindow>
+#include <terimakasih.h>
 
 namespace Ui {
 class KonfirmasiMilea;
@@ -15,8 +16,13 @@ public:
     explicit KonfirmasiMilea(QWidget *parent = nullptr);
     ~KonfirmasiMilea();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::KonfirmasiMilea *ui;
+    TerimaKasih *TerimaKasih;
+
 };
 
 #endif // KONFIRMASIMILEA_H

@@ -12,3 +12,10 @@ KonfirmasiPergi::~KonfirmasiPergi()
 {
     delete ui;
 }
+
+void KonfirmasiPergi::on_pushButton_2_clicked()
+{
+    hide();
+    TerimaKasih = new class TerimaKasih(this);
+    TerimaKasih->show();
+}

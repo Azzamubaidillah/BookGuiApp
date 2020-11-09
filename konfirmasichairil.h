@@ -2,6 +2,7 @@
 #define KONFIRMASICHAIRIL_H
 
 #include <QMainWindow>
+#include <terimakasih.h>
 
 namespace Ui {
 class KonfirmasiChairil;
@@ -15,8 +16,12 @@ public:
     explicit KonfirmasiChairil(QWidget *parent = nullptr);
     ~KonfirmasiChairil();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::KonfirmasiChairil *ui;
+    TerimaKasih *TerimaKasih;
 };
 
 #endif // KONFIRMASICHAIRIL_H

@@ -123,3 +123,17 @@ void Window2::on_pushButton_9_clicked()
     KonfirmasiChairil = new class KonfirmasiChairil(this);
     KonfirmasiChairil->show();
 }
+
+void Window2::on_pushButton_10_clicked()
+{
+    hide();
+    Konfirmasi = new class Konfirmasi(this);
+    Konfirmasi->show();
+}
+
+void Window2::on_pushButton_11_clicked()
+{
+    hide();
+    KonfirmasiMilea = new class KonfirmasiMilea(this);
+    KonfirmasiMilea->show();
+}
