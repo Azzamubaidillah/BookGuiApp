@@ -109,3 +109,10 @@ void Window2::on_pushButton_7_clicked()
     KonfirmasiPergi = new class KonfirmasiPergi(this);
     KonfirmasiPergi->show();
 }
+
+void Window2::on_pushButton_8_clicked()
+{
+    hide();
+    KonfirmasiHabibi = new class KonfirmasiHabibi(this);
+    KonfirmasiHabibi->show();
+}
