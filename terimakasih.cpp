@@ -12,3 +12,8 @@ TerimaKasih::~TerimaKasih()
 {
     delete ui;
 }
+
+void TerimaKasih::on_pushButton_clicked()
+{
+    QApplication::quit();
+}

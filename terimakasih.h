@@ -15,6 +15,9 @@ public:
     explicit TerimaKasih(QWidget *parent = nullptr);
     ~TerimaKasih();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::TerimaKasih *ui;
 };
